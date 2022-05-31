@@ -1,0 +1,398 @@
+body {
+  margin: 0;
+  background-color: #1f1c1d;
+}
+/* the  start of home div  */
+.home {
+  background-image: url(./images/drew-coffman-1872.jpg);
+  
+
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+  padding: 20px 20px;
+}
+/* the navigator which is not working  */
+
+.navigator {
+  height: 10vh;
+}
+.navigator-image {
+  
+  float: left;
+  margin: 1% 3%;
+}
+.navigator-image img {
+  
+  width: 40%;
+}
+
+.navigator-text {
+  width: 5%;
+  float: right;
+  margin: 2% 5px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.main-text {
+  margin-top: 5%;
+  text-align: center;
+
+  margin-bottom: 2%;
+}
+.main-text p {
+  font-size: 30px;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-text h1 {
+  font-size: 70px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+.navigator-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.buttons {
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+}
+.buttonn {
+  width: 100%;
+  float: left;
+  margin: auto;
+}
+
+.button-1 {
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+
+  /* make button beigger */
+  padding: 15px 20px;
+  background-color:#8e7754;
+  color: white;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+.button-2 {
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 2px solid rgb(85, 85, 85);
+
+  /* make button beigger */
+  background: none;
+
+  color: white;
+  font-family: Alegreya Sans, sans-serif, monospace;
+
+  font-size: 16px;
+}
+
+/* the end of the home div and the start of About div  */
+.About {
+  width: 100%;
+  height: 90vh;
+}
+.About-image {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 20px 20px;
+}
+.About-image img {
+  width: 80%;
+}
+.About-Text {
+  color: white;
+  width: 40%;
+  float: left;
+  text-align: center;
+  padding: 20px 20px;
+}
+.about-a-q h2 {
+  padding: 15px;
+}
+.about-a-q p {
+  padding: 15px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  color: #797878d2;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+}
+.about-a-q {
+  padding: 15px;
+}
+
+.About-List {
+  color: white;
+}
+.About-List ul {
+  list-style: none;
+  text-align: left;
+}
+.About-List li{
+    margin-bottom: 20px;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    font-size: 20px;
+    color: #797878d2;
+
+}
+.About-List li.check {
+  list-style-image: url(./images/check.png);
+  
+}
+.About-List li.group {
+  list-style-image: url(./images/group.png);
+  
+}
+.About-List li.heart {
+  list-style-image: url(./images/heart.png);
+  
+}
+
+/* the About sytle is over and we will copy it for the our offer part  stating from here */
+.Our-offer {
+  background-color: #292929;
+  width: 100%;
+  height: 80vh;
+}
+.offer-text {
+  color: white;
+  width: 40%;
+  float: left;
+  text-align: center;
+  padding: 20px 20px;
+}
+.offer-text p {
+  padding: 15px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  color: #797878d2;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+}
+
+.offer-image {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 20px 20px;
+}
+.offer-image img {
+  width: 80%;
+}
+
+/* the style of offer over and starting the style of the galley part */
+.Gallery{
+    width: 100%;
+    height: 90vh;
+}
+.Gallery-header{
+    text-align: center;
+    color:white ;
+}
+.art{
+  width: 33%;
+  float: left;
+  text-align: center;
+  color: white;
+}
+.art img{
+  width: 80%;
+  margin-bottom: 10px;
+}
+.art p{
+  width: 70%;
+  margin: auto;
+  color: #c0c0c0d2;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+  
+}
+.art h4{
+  color: #c0c0c0d2;
+}
+/* the style of the Gallery is over and we here starting the style of blog */
+.Blog{
+  color:white;
+  background-color: #292929;
+  width: 100%;
+  height: 100vh;
+}
+.Blog-text{
+  padding: 20px 30px;
+  float: left;
+  width: 40%;
+  text-align: center;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+    font-size: 20px;
+    color: #bbbbbbd2;
+}
+p.to-leftSite{
+  text-align: left;
+}
+.Blog-text h2{
+  color: white;
+font-family: 'Times New Roman', Times, serif
+}
+.Blog-List ul {
+  list-style: none;
+  text-align: left;
+}
+.Blog-List li{
+    margin-bottom: 20px;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    font-size: 20px;
+    color: #bbbbbbd2;
+
+}
+.Blog-List li.headphone {
+  list-style-image: url(./images/headphone.png);
+  
+}
+.Blog-List li.call {
+  list-style-image: url(./images/call.png);
+  
+}
+.Blog-image{
+  padding: 20px 20px;
+  float: left;
+  width: 50%;
+}
+.Blog-image img{
+  width: 100%;
+}
+/* the Blog style is over and the last part of the  website is over*/
+.final{
+  color: white;
+  width: 100%;
+  height: 70vh;
+  margin: auto;
+}
+.about-us{
+  padding: 10px 20px;
+  float: left;
+  width: 15%;
+  text-align: left;
+ 
+}
+.about-us p{
+  font-family: Alegreya Sans, sans-serif, monospace;
+  font-size: 20px;
+  color: #bbbbbbd2;
+}
+.question{
+  padding: 10px 20px;
+  float: left;
+  width: 20%;
+  text-align: left;
+
+}
+.question ul {
+  list-style: none;
+  
+}
+.question li{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    font-size: 20px;
+    color: #bbbbbbd2;
+    list-style-image: url(./images/arrow.png);
+    
+
+}
+.opening{
+  padding: 10px 20px;
+  float: left;
+  width: 25%;
+  text-align: left;
+
+}
+.opening li{
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  font-size: 20px;
+  color: #bbbbbbd2;
+  list-style-image: url(./images/arrow.png);
+  
+
+}
+.Details{
+  padding: 10px 20px;
+  float: left;
+  width: 25%;
+  text-align: left;
+
+}
+.Details ul{
+  list-style: none;
+}
+.Details li{
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  font-size: 20px;
+  color: #bbbbbbd2;
+  
+
+}
+.Details li.earth{
+  list-style-image: url(./images/earth.png);
+
+}
+.Details li.email{
+  list-style-image: url(./images/email.png);
+
+}
+.Details li.location{
+  list-style-image: url(./images/location.png);
+
+}
+.Details li.call{
+  list-style-image: url(./images/call.png);
+
+}
+/* the end of final part and the footer style start from here  */
+.footer{
+  background-color: #292929;
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  color: white;
+}
+.footer-image{
+  padding: 20px 20px;
+}
+.footer-text{
+
+  padding: 20px 20px;
+}
+.icon{
+ margin:auto;
+ margin-left:46%;
+}
+.footer-icons{
+  margin-left: 1%;
+
+  float: left;
+}
+
+/* genral styles */
+hr{
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  
+}
+
