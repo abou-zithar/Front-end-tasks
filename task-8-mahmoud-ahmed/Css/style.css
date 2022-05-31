@@ -1,0 +1,35 @@
+
+h1 {
+  font-size: 80px;
+  font-family: Impact;
+}
+
+p {
+  font-size: 35px;
+}
+
+
+.header{
+  font-size: 90px;
+  font-weight: bold;
+padding: 10px;
+}
+
+
+.btn{
+  color: white;
+  background-color: blue!important;
+  height: 100px;
+  width: 50%;
+  margin: auto;
+ 
+}
+
+.btn:hover{
+  color: white;
+  background-color: green!important;
+}
+
+.btn:focus{
+  border: none;
+}
