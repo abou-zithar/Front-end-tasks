@@ -1,0 +1,86 @@
+<html>
+  <head> 
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <boady>
+    <form action="">
+      <!-- the large box -->
+      <fieldset style="background-color: darkslategray">
+        <legend style="background-color: tomato; color: gold ">
+          Personal Data
+        </legend>
+        <!-- first small box -->
+
+        <fieldset style="background-color: teal">
+          <legend class="style" style="background-color: tomato; color: gold" >
+            Your Name
+          </legend>
+          <label for="FName" style="color: wheat">First name :</label>
+          <input
+            type="text"
+            id="Fname"
+            name="FirstName"
+            placeholder="ex mahmoud"
+            autofocus
+          /><br />
+
+          <label for="LName" style="color: wheat"> Last name :</label>
+
+          <input
+            type="text"
+            id="Lname"
+            name="LastName"
+            placeholder="ex ahmed"
+          />
+        </fieldset>
+        <!-- the end of the first small box -->
+        <!-- the rest of the page after this comment -->
+        <br /><br /><br />
+        <label for="Phone" style="color: wheat">Phone number :</label>
+        <input type="number" id="Phone" name="PhoneNumber" /><br />
+
+        <label for="Email" style="color: wheat">Email &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; : </label> 
+        &emsp;
+
+        <input type="Email" id="Email" name="Email" /><br />
+
+        <label for="Password" style="color: wheat">Password &nbsp; &nbsp; &nbsp; &nbsp;  :</label
+        >
+        <input type="Password" id="Password" name="Password" /><br />
+
+        <label for="Password" style="color: wheat">RePassword &nbsp;&nbsp;&nbsp; :</label>
+        <input type="Password" id="Password" name="Password" /><br />
+        <br /><br /><br />
+
+        <input type="radio" id="Female" name="Gender" value="Female" />
+        <label for="Female" style="color: wheat">Female</label><br />
+        <input type="radio" id="male" name="Gender" value="male" />
+        <label for="male" style="color: wheat">male</label
+        ><br /><br /><br /><br />
+
+        <input type="checkbox" id="student" name="state" value="student" />
+        <label for="student" style="color: wheat"> student</label><br />
+        <input type="checkbox" id="Garduated" name="state" value="Garduated" />
+        <label for="Garduated" style="color: wheat"> Garduated</label><br />
+        <br /><br /><br />
+        <select name="collage" id="collage">
+          <optgroup label="Alex">
+            <option value="AAST">AAST</option>
+            <option value="AUE" selected>AUE</option>
+            
+          </optgroup>
+          <optgroup label="Cairo">
+        <option value="AUC" selected>AUC</option>
+          <option value="DUE">DUE</option>
+          <option value="GUC">GUC</option>
+        </optgroup>
+        </select>
+        <br />
+        <button type="submit" style="background-color: goldenrod;shape-rendering: crispEdges;">
+          submit
+        </button>
+      </fieldset>
+    </form>
+  </boady>
+</html>
+<!-- file:///A:/full%20stack/Task-2-mahmoud/index.html?FirstName=mahmoud&LastName=ahmed&PhoneNumber=01002020213&Email=asdasd%40sfad&Password=asdad&Password=asdad&Gender=male&state=student&state=Garduated&collage=AAST -->
