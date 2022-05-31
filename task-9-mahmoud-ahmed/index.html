@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="my-5 w-75 mx-auto ">
+      <div class="logo">
+        <h1 class="header_style">Bookmarker</h1>
+      </div>
+      <hr />
+      <div class="form_part text-center m-2 p-4">
+        <h2>Bookmark your favorite sites</h2>
+        <div class="w-75 mx-auto">
+          <label for="">Site Name</label>
+          <div class="form-floating my-2 w-100">
+            <input
+              type="text"
+              class="form-control"
+              id="siteName"
+              placeholder="Mahmoud"
+            />
+            <label for="siteName">Bookmark name</label>
+          </div>
+          <label for="">Site URL</label>
+          <div class="form-floating mb-3 my-2">
+            <input
+              type="text"
+              class="form-control"
+              id="siteURL"
+              placeholder="Mahmoud"
+            />
+            <label for="siteURL">website URL</label>
+          </div>
+          <button class="btn btn-primary" onclick="addSite()">Submit</button>
+        </div>
+      </div>
+
+
+      <div class="cards" id="cards">
+        
+      
+    
+    
+    </div>
+      <hr/>
+      <div class="footer">
+        <p>
+          © 2019 Bookmarker Inc.
+        </p>
+      </div>
+    </div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
