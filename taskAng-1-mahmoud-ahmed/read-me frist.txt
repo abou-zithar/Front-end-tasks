@@ -1,0 +1,8 @@
+hi 
+i just want to say that i remove the file called 'node_modules' because the time of the compresion was very long
+
+
+
+
+
+and thank you for reading this file :)
